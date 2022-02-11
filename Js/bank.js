@@ -8,6 +8,8 @@ document.getElementById('login-submit').addEventListener('click',function(){
    const PassField = document.getElementById('user-pass');
    const UserPass = PassField.value;
 
+ /*    check email and password */
+ 
    if(UserEmail == 'exito@gmail.com' && UserPass == 'secret' ){
     //    console.log('valid user');
     window.location.href = 'banking.html';
